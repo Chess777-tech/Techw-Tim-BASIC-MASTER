@@ -13,16 +13,9 @@ el ol!
 >>> 
 >>> 
 >>> fruits = ['apple','pear','kiwi']
->>> print(fruits[1:])
-['pear', 'kiwi']
->>> ['pear', 'kiwi']
-['pear', 'kiwi']
->>> 
->>> fruits[0:0] = 'strawberry'
->>> print(fruits)
-['s', 't', 'r', 'a', 'w', 'b', 'e', 'r', 'r', 'y', 'apple', 'pear', 'kiwi']
+>>> print(fruits[1:]) 
 >>> 
 >>> 
 >>> fruits[0] = 'strawberry'
 >>> print(fruits)
-['strawberry', 't', 'r', 'a', 'w', 'b', 'e', 'r', 'r', 'y', 'apple', 'pear', 'kiwi']
+['strawberry','apple', 'pear', 'kiwi']
