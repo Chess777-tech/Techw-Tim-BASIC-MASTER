@@ -1,7 +1,7 @@
 #static method 
 
 class myClass:
-    def __init__(self):
+    def __init__(self, x):
         self.x =x 
     
     @staticmethod
@@ -15,7 +15,7 @@ class myClass:
 #class method 
 
 class myClass:
-    def __init__(self):
+    def __init__(self, x):
         self.x = x 
     
     @classmethod
